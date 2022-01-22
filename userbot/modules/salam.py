@@ -7,19 +7,19 @@ from userbot.utils import edit_or_reply, man_cmd
 
 @man_cmd(pattern="p(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Assalamualaikum Dulu Biar Sopan**")
+    await edit_or_reply(event, "**ASSALAMUALAIKUM DULU TOLOLL **")
 
 
 @man_cmd(pattern="pe(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Assalamualaikum Warahmatullahi Wabarakatuh**")
+    await edit_or_reply(event, "**UCAPIN SALAM KEK NGNTDDD**")
 
 
 @man_cmd(pattern="P(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
+    xx = await edit_or_reply(event, f"**KENALIN GW{owner}**")
     sleep(2)
-    await xx.edit("**Assalamualaikum...**")
+    await xx.edit("**GAUSAH SOKAB ANJGGGG**")
 
 
 @man_cmd(pattern="l(?: |$)(.*)")
