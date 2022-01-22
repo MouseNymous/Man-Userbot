@@ -95,8 +95,8 @@ async def on_afk(event):
                 f" 🐧INI USERBOT AFI🐧\n"
                +f"╭✠╼━━━━━━━━❖━━━━━━━━━✠╮"
                +f"┣ Tuan Muda : {owner} Sedang AFK"
-               +f"┣`{total_afk_time}` Yang Lalu"
-               +f"┣ Karena    : `{reason}`"
+               +f"┣{total_afk_time} Yang Lalu"
+               +f"┣ Karena : {reason}" 
                +f"╰✠╼━━━━━━━━❖━━━━━━━━━✠╯"       
             )
         else:
