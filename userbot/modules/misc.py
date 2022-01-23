@@ -56,6 +56,19 @@ async def sleepybot(time):
     await xx.edit("**Oke, saya sudah bangun sekarang.**")
 
 
+@bot.on(man_cmd(outgoing=True, pattern=r"msksj(?: |$)(.*)"))
+async def _(event):
+    await event.edit("`Pertama-tama muka lu jelek`")
+    sleep(2)
+    await event.edit("`Kedua Gausah Sokab Tolol`")
+    sleep(1)
+    await event.edit(
+    
+    "`Salam Kenal Gw Dari [Cari Kawan](https://t.me/ckbersama)`"
+
+   )
+
+
 @man_cmd(pattern="shutdown$")
 async def shutdown_bot(event):
     if event.fwd_from:
