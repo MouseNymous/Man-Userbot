@@ -64,7 +64,7 @@ async def _(event):
     sleep(1)
     await event.edit(
     
-    "`Salam Kenal Gw Dari [Cari Kawan](https://t.me/ckbersama)`"
+    "`Salam Kenal Gw Dari` [Cari Kawan](https://t.me/ckbersama)"
 
    )
 
