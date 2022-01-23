@@ -89,13 +89,6 @@ async def _(e):
     await e.edit("I LOVE YOUUUU")
 
 
-
-
-
-
-
-
-
 @bot.on(man_cmd(outgoing=True, pattern=r"gabut$"))
 async def _(e):
     await e.edit("`PERNAAHHHHH KAHHH KAUUU MENGIRA`")
