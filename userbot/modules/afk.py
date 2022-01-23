@@ -92,7 +92,7 @@ async def on_afk(event):
         msg = None
         if reason:
             message_to_reply = (
-                  f" 🐧INI USERBOT AFI🐧\n"
+                f"  🐧**__INI USERBOT AFI__**🐧\n"
                +f"╭✠╼━━━━━━━━❖━━━━━━━━━✠\n"
                +f"┣ Tuan Muda : {owner} Sedang AFK\n"
                +f"┣ Pada {total_afk_time} Yang Lalu\n"
