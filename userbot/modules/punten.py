@@ -7,11 +7,11 @@ from userbot.events import man_cmd
 
 @bot.on(man_cmd(outgoing=True, pattern=r"sadboy(?: |$)(.*)"))
 async def _(event):
-    await event.edit("`Pertama-tama kamu cantik`")
+    await event.edit("`Pertama-tama muka lu jelek`")
     sleep(2)
-    await event.edit("`Kedua kamu manis`")
+    await event.edit("`Kedua Gausah Sokab Tolol`")
     sleep(1)
-    await event.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await event.edit("`Salam Kenal Gw Dari Cari Kawan`")
 
 
 # Create by myself @localheart
