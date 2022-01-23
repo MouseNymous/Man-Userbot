@@ -67,30 +67,30 @@ async def _(event):
 
 @bot.on(man_cmd(outgoing=True, pattern=r"sayang$"))
 async def _(e):
-    await e.edit("I LOVEE YOUUU 💕")
+    await e.edit("**Permisii**💕")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💘💞💗💕")
     await e.edit("💘💞💕💗")
-    await e.edit("SAYANG KAMU 💝💖💘")
+    await e.edit("**Cuma Mau Bilang**")
     await e.edit("💝💘💓💗")
     await e.edit("💞💕💗💘")
     await e.edit("💘💞💕💗")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("SELAMANYA 💕")
+    await e.edit("**Abi Cakep**")
+    await e.edit("**Abi Comel**")
+    await e.edit("**Abi Cantik** 💕")
     await e.edit("💘💘💘💘")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
-    await e.edit("SAYANG")
-    await e.edit("KAMU")
+    await e.edit("**Abi**")
+    await e.edit("**Punya**")
+    await e.edit("**Gw**")
+    await e.edit("**Ygy**")
     await e.edit("I LOVE YOUUUU")
-    await e.edit("MY BABY")
-    await e.edit("💕💞💘💝")
-    await e.edit("💘💕💞💝")
-    await e.edit("SAYANG KAMU💞")
+
+
+
+
 
 
 @bot.on(man_cmd(outgoing=True, pattern=r"dino(?: |$)(.*)"))
@@ -105,7 +105,7 @@ async def _(typew):
     await typew.edit("`🏃                     🦖`")
     await typew.edit("`🏃   `LARII`          🦖`")
     await typew.edit("`🏃                   🦖`")
-    await typew.edit("`🏃                  🦖`")
+    await typew.edit("`🏃                  🦖`"
     await typew.edit("`🏃                 🦖`")
     await typew.edit("`🏃                🦖`")
     await typew.edit("`🏃               🦖`")
