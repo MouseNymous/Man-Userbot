@@ -5,7 +5,7 @@ from userbot import CMD_HELP, bot
 from userbot.events import man_cmd
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"ck(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern=r"ckllbhhhu(?: |$)(.*)"))
 async def _(event):
     await event.edit("`Pertama-tama muka lu jelek`")
     sleep(2)
