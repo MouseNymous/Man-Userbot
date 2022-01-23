@@ -29,23 +29,17 @@ async def _(event):
 
 @man_cmd(pattern="a(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Haii Salken Saya {owner}**")
-    sleep(2)
-    await xx.edit("**Assalamualaikum**")
+    xx = await edit(event, f"**__CAKI TOLLOOLLL__**")
 
 
 @man_cmd(pattern="j(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**JAKA SEMBUNG BAWA GOLOK**")
-    sleep(3)
-    await xx.edit("**NIMBRUNG GOBLOKK!!!🔥**")
+    xx = await edit(event, "**_SEPTI PAKBOY_**")
 
 
 @man_cmd(pattern="k(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**Hallo KIMAAKK SAYA {owner}**")
-    sleep(2)
-    await xx.edit("**LU SEMUA NGENTOT 🔥**")
+    xx = await edit(event, f"**__HALO KACANG PAKBOY__**")
 
 
 @man_cmd(pattern="ass(?: |$)(.*)")
