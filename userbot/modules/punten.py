@@ -11,7 +11,7 @@ async def _(event):
     sleep(2)
     await event.edit("`Kedua Gausah Sokab Tolol`")
     sleep(1)
-    await event.edit("`Salam Kenal Gw Dari Cari Kawan`")
+    await event.edit("`Salam Kenal Gw Dari [Cari Kawan](https://t.me/ckbersama)`")
 
 
 # Create by myself @localheart
