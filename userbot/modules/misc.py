@@ -123,7 +123,7 @@ async def repo_is_here(event):
                     f"❏**Owner​ ⎆ **Tuan Muda Afi**\n"
                     f"❏**Channel** ⎆ [Malesin](t.me/rftnjg)\n"
                     f"❏**Group** ⎆ [Cari Kawan](t.me/ckbersama)\n"
-                                f"⎆ [Teman Telegram ID](https://t.me/temantelegram_id)\n"
+                    f"(          ⎆ [Teman Telegram ID](https://t.me/temantelegram_id))\n"
     )
 
 
