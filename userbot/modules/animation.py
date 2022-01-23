@@ -89,10 +89,6 @@ async def _(e):
     await e.edit("I LOVE YOUUUU")
 
 
-
-
-
-
 @bot.on(man_cmd(outgoing=True, pattern=r"dino(?: |$)(.*)"))
 async def _(typew):
     await typew.edit("`DIN DINNN.....`")
