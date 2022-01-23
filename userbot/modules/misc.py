@@ -117,14 +117,14 @@ async def repeat(event):
 
 @man_cmd(pattern="repo$")
 async def repo_is_here(event):
-    xx = await edit_or_reply(event, "`Processing...`")
+    xx = await edit(event, "`Processing...`")
     await xx.edit(
                    
                    f"​╰⎆**Halo Saya Adalah Afi-Userbot**🕹\n"
                    f"❏**Owner**​    ⎆ **__Tuan Muda Afi__**🇮🇩\n"
                    f"❏**Channel** ⎆ [Malesin](t.me/rftnjg)\n"
                    f"❏**Group**    ⎆ [Cari Kawan](t.me/ckbersama)\n"
-                   f"               ⎆ [Teman Telegram ID](https://t.me/temantelegram_id)\n"
+                   f"                  ⎆ [Teman Telegram ID](https://t.me/temantelegram_id)\n"
                    
     )
 
