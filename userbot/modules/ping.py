@@ -66,12 +66,11 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await bot.get_me()
     await xx.edit(
-        f"**YAMETEKUDASAI KKOONTOLLLLL🏓**\n"
-        f"✣ **Pinger** - `%sms`\n"
-        f"✣ **Uptime -** `{uptime}` \n"
-        f"**✦҈͜͡Owner :** [{user.first_name}](tg://user?id={user.id})" % (duration)
-    )
-
+    f"卍════〠 **TEST-PING** 〠════卍\n"
+    f"✨ __Pinger__ : `%sms`\n"
+    f"☂️ __Uptime__ : `{uptime}` \n" 
+    f"✠➲ __Owner__ : [{user.first_name}](tg://user?id={user.id})" % (duration)
+)
 
 @man_cmd(pattern=r"xping$")
 async def _(ping):
