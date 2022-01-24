@@ -53,7 +53,7 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@man_cmd(pattern="ping$")
+@man_cmd(pattern="^ping$")
 async def _(ping):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
