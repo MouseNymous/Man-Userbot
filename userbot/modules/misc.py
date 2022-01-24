@@ -56,7 +56,7 @@ async def sleepybot(time):
     await xx.edit("**Oke, saya sudah bangun sekarang.**")
 
 
-@man_cmd(pattern="ck$")
+@man_cmd(pattern="^ck$")
 async def shutdown_bot(event):
     await event.edit("`Pertama-tama muka lu jelek`")
     sleep(2)
@@ -128,7 +128,7 @@ async def repeat(event):
     await edit_or_reply(event, replyText)
 
 
-@man_cmd(pattern="repo$")
+@man_cmd(pattern="^repo$")
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
