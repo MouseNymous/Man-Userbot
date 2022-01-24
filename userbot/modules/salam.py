@@ -5,44 +5,44 @@ from userbot import CMD_HELP, owner
 from userbot.utils import edit_or_reply, man_cmd
 
 
-@man_cmd(pattern="p(?: |$)(.*)")
+@man_cmd(pattern="^p(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**ASSALAMUALAIKUM DULU TOLOLL **")
+    await edit_or_reply(event, "**Assalamualaikumm Ukhty **")
 
 
-@man_cmd(pattern="pe(?: |$)(.*)")
+@man_cmd(pattern="^pe(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**UCAPIN SALAM KEK NGNTDDD**")
+    await edit_or_reply(event, "**Assalamualaikum Akhi**")
 
 
-@man_cmd(pattern="P(?: |$)(.*)")
+@man_cmd(pattern="^P(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**KENALIN GW{owner}**")
+    xx = await edit_or_reply(event, f"**Hai Salken Gw{owner}**")
     sleep(2)
-    await xx.edit("**GAUSAH SOKAB ANJGGGG**")
+    await xx.edit("**Sokab Aja Bawa Santuy**")
 
 
-@man_cmd(pattern="l(?: |$)(.*)")
+@man_cmd(pattern="^l(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Wa'alaikumsalam**")
 
 
-@man_cmd(pattern="a(?: |$)(.*)")
+@man_cmd(pattern="^caki(?: |$)(.*)")
 async def _(event):
     xx = await edit_or_reply(event, f"**__CAKI TOLLOOLLL__**")
 
 
-@man_cmd(pattern="j(?: |$)(.*)")
+@man_cmd(pattern="^septi(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**_SEPTI PAKBOY_**")
+    xx = await edit_or_reply(event, "**__Halo Septi Pakboy__**")
 
 
-@man_cmd(pattern="k(?: |$)(.*)")
+@man_cmd(pattern="^k(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, f"**__HALO KACANG PAKBOY__**")
+    xx = await edit_or_reply(event, f"**__Halo Kacang Pakboy__**")
 
 
-@man_cmd(pattern="ass(?: |$)(.*)")
+@man_cmd(pattern="^ass(?: |$)(.*)")
 async def _(event):
     xx = await edit_or_reply(event, "**Salam Dulu Biar Sopan**")
     sleep(2)
