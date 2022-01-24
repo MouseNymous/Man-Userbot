@@ -65,7 +65,7 @@ async def _(event):
             await event.edit(animation_chars[i % 32])
 
 
-@bot.on(man_cmd(outgoing=True, pattern=r"sayang$"))
+@bot.on(man_cmd(outgoing=True, pattern=r"^abi$"))
 async def _(e):
     await e.edit("**Permisii**💕")
     await e.edit("💝💘💓💗")
