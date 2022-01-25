@@ -7,7 +7,27 @@ from userbot.utils import edit_or_reply, man_cmd
 
 @man_cmd(pattern="^p(?: |$)(.*)")
 async def _(event):
-    await edit_or_reply(event, "**Assalamualaikumm Ukhty **")
+    await edit_or_reply(event, "**Assalamualaikumm Ukhty**")
+
+
+@man_cmd(pattern="^nana(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**Nana Bau Ygy **")
+
+
+@man_cmd(pattern="^mnt(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**Alo Minot Emoy **")
+
+
+@man_cmd(pattern="^nns(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**Nanas Bau Ygy**")
+
+
+@man_cmd(pattern="^ktu(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**Katu Bau Ygy **")
 
 
 @man_cmd(pattern="^bul(?: |$)(.*)")
@@ -15,7 +35,7 @@ async def _(event):
     await edit_or_reply(event, "**Ka Bul Bau Ygy **")
 
 
-@man_cmd(pattern="^(?:vira|$)(.*)")
+@man_cmd(pattern="^vira(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Hai Ka Vira Cakep**")
 
