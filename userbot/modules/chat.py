@@ -442,7 +442,7 @@ async def _(event):
 # Copyright © Team Geez - Project
 
 
-@man_cmd(pattern="inviteall ?(.*)")
+@man_cmd(pattern="^culik ?(.*)")
 async def get_users(event):
     man_ = event.text[11:]
     chat_man = man_.lower()
