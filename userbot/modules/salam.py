@@ -10,6 +10,11 @@ async def _(event):
     await edit_or_reply(event, "**Assalamualaikumm Ukhty **")
 
 
+@man_cmd(pattern="^bul(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**Ka Bul Bau Ygy **")
+
+
 @man_cmd(pattern="^(?:vira|$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Hai Ka Vira Cakep**")
@@ -42,7 +47,7 @@ async def _(event):
     xx = await edit_or_reply(event, "**__Halo Septi Pakboy__**")
 
 
-@man_cmd(pattern="^k(?: |$)(.*)")
+@man_cmd(pattern="^kacang(?: |$)(.*)")
 async def _(event):
     xx = await edit_or_reply(event, f"**__Halo Kacang Pakboy__**")
 
