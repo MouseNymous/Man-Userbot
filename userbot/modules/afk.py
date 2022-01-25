@@ -127,7 +127,7 @@ async def on_afk(event):
             pass
 
 
-@bot.on(man_cmd(outgoing=True, pattern="afk(?: |$)(.*)"))
+@bot.on(man_cmd(outgoing=True, pattern="^afk(?: |$)(.*)"))
 async def _(event):
     if event.fwd_from:
         return
