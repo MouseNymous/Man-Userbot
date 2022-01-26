@@ -14,6 +14,11 @@ async def _(event):
 async def _(event):
     await edit_or_reply(event, "**Nana Bau Ygy **")
 
+    
+@man_cmd(pattern="^limit(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**~kabar baik, akun kamu tidak dibatasi karena tidak sasimo suka pc pc kaya orang tolol**")    
+
 
 @man_cmd(pattern="^mnt(?: |$)(.*)")
 async def _(event):
