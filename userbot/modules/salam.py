@@ -10,15 +10,6 @@ async def _(event):
     await edit_or_reply(event, "**Assalamualaikumm Ukhty**")
 
 
-@man_cmd(pattern="^aul(?: |$)(.*)")
-async def _(event):
-    await edit_or_reply(event, "**__Halo Ka Aul Cantik__**")
-    sleep(1)
-    await e.edit(**__btw ka aul punya afi ygy__**)
-    sleep(1)
-    await e.edit(**__run__**)
-
-
 @man_cmd(pattern="^nana(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Nana Bau Ygy **")
@@ -90,7 +81,16 @@ async def _(event):
 async def _(event):
     xx = await edit_or_reply(event, "**Salam Dulu Biar Sopan**")
     sleep(2)
-    await xx.edit("**السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**") 
+    await xx.edit("**السَّلاَمُ عَلَيْكُمْ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
+
+
+@man_cmd(pattern="^aul(?: |$)(.*)")
+async def _(event):
+    xx = await edit_or_reply(event, "**__Halo Ka Aul Cantik__**")
+    sleep(1)
+    await xx.edit("**__Btw Ka Aul Punya Afi Ygy__**")
+    sleep(1)
+    await xx.edit("**__Run__**")
 
 
 CMD_HELP.update(
