@@ -12,11 +12,11 @@ async def _(event):
 
 @man_cmd(pattern="^aul(?: |$)(.*)")
 async def _(event):
-    xx = await edit_or_reply(event, "**__Halo Ka Aul Cantik__**")
+    await edit_or_reply(event, "**__Halo Ka Aul Cantik__**")
     sleep(1)
-    await xx.edit(**__btw ka aul punya afi ygy__**)
+    await e.edit(**__btw ka aul punya afi ygy__**)
     sleep(1)
-    await xx.edit(**__run__**)
+    await e.edit(**__run__**)
 
 
 @man_cmd(pattern="^nana(?: |$)(.*)")
