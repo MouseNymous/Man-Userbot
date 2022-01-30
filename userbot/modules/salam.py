@@ -10,6 +10,14 @@ async def _(event):
     await edit_or_reply(event, "**Assalamualaikumm Ukhty**")
 
 
+
+@man_cmd(pattern="^yola(?: |$)(.*)")
+async def _(event):
+    await edit_or_reply(event, "**__Yola Bau Ygy__**")
+    sleep(1)
+    await e.edit("**__btw yola lipkpl yu__**")
+
+
 @man_cmd(pattern="^nana(?: |$)(.*)")
 async def _(event):
     await edit_or_reply(event, "**Nana Bau Ygy **")
